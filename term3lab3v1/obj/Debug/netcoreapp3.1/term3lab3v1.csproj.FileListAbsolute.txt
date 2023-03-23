@@ -1,0 +1,13 @@
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.exe
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.deps.json
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.runtimeconfig.json
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.runtimeconfig.dev.json
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.dll
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.pdb
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.csprojAssemblyReference.cache
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.dll
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.pdb
+C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.genruntimeconfig.cache
