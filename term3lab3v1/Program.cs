@@ -99,6 +99,36 @@ namespace term3lab3v1
 
             return null;
         }
+
+        public LinkedListNode GetFirst()
+        {
+            return _first;
+        }
+
+        public void PrintAll()
+        {
+            LinkedListNode current = _first;
+            while (current != null)
+            {
+                Console.Write("key: " + current.Pair.Key + ", value " + current.Pair.Value + "\n");
+                current = current.Next;
+            }
+  
+        }
+
+        public bool IsEmpty()
+        {
+            if (_first == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
+        
         
     }
 
