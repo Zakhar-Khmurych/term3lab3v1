@@ -59,7 +59,7 @@ namespace term3lab3v1
 
         public void RemoveByKey(string key)
         {
-            if (_first == null) return;
+           // if (_first == null) return;
             if (_first.Pair.Key == key)
             {
                 _first = _first.Next;
@@ -84,7 +84,7 @@ namespace term3lab3v1
 
         public KeyValuePair GetItemWithKey(string key)
         {
-            if (_first == null) return null;
+         //   if (_first == null) return null;
             if (_first.Pair.Key == key)
             {
                 return _first.Pair;
@@ -148,6 +148,9 @@ namespace term3lab3v1
             int index = hashCode / InitialSize;
             var add_value = new KeyValuePair(key, value);
             var _first = _buckets[index];
+            
+            
+            
             if (_first == null)
             {
                 _buckets[index] = new LinkedList();
@@ -165,12 +168,43 @@ namespace term3lab3v1
 
         public void Remove(string key)
         {
-            
+            int hash_code = Math.Abs(key.GetHashCode());
+            int index = hash_code / InitialSize;
+            var _first = _buckets[index];
+            _first.RemoveByKey(key);
         } 
         
-        public void Get(string key)
+        public string Get(string key)
         {
-            
+            int hash_code = Math.Abs(key.GetHashCode());
+            int index = hash_code / InitialSize;
+            var _first = _buckets[index];
+            string result = null;
+            if (_first == null)
+            {
+                Console.WriteLine("no way");
+            }
+
+            if (_first.GetFirst() != null)
+            {
+                var current = _first.GetFirst();
+                while (current.Pair.Key != key)
+                {
+                    current = current.Next;
+                    if (current == null)
+                    {
+                        break;    
+                    }
+                }
+
+                if (current.Pair.Key == key)
+                {
+                    result = current.Pair.Value;
+                }
+
+            }
+
+            return result;
         }
 
         private int CalculateHash(string key)
