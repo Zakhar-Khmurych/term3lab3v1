@@ -11,3 +11,17 @@ C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3l
 C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.dll
 C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.pdb
 C:\Users\HP\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.genruntimeconfig.cache
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.exe
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.deps.json
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.runtimeconfig.json
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.runtimeconfig.dev.json
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.dll
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\bin\Debug\netcoreapp3.1\term3lab3v1.pdb
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.csproj.AssemblyReference.cache
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.AssemblyInfoInputs.cache
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.AssemblyInfo.cs
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.csproj.CoreCompileInputs.cache
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.dll
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.pdb
+C:\Users\KHRYSTYNA\RiderProjects\term3lab3v1\term3lab3v1\obj\Debug\netcoreapp3.1\term3lab3v1.genruntimeconfig.cache

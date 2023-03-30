@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ufcSPruXT5ED2aT2l58dC442b5+F9WZDaUv12OqNeelj2LBrZx6zlJX87mWHMWd7rp4J0dcDnKwXQuZ/YemdCw==",
+  "dgSpecHash": "1Vu9i1j5k+eJZ11EkpsWK+TcbJrvQZWmoWLG9uGTeShNOp4a6spIDUVT18c+FnRNyCx7SQQ6QNxUPZRWouG4nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\RiderProjects\\term3lab3v1\\term3lab3v1\\term3lab3v1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\KHRYSTYNA\\RiderProjects\\term3lab3v1\\term3lab3v1\\term3lab3v1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KHRYSTYNA\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\KHRYSTYNA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\KHRYSTYNA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\KHRYSTYNA\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.32\\microsoft.netcore.app.host.win-x86.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

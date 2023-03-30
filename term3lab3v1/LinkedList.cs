@@ -13,7 +13,6 @@ namespace term3lab3v1
             Key = key;
             Value = value;
         }
-        
     }
 
     public class LinkedListNode
@@ -26,8 +25,8 @@ namespace term3lab3v1
             Pair = pair;
             Next = next;
         }
-        
     }
+    
     public class LinkedList
     {
         private LinkedListNode _first;
@@ -50,8 +49,6 @@ namespace term3lab3v1
 
                 current.Next = addValue;
             }
-            
-            
         }
 
         public void RemoveByKey(string key)
@@ -73,10 +70,7 @@ namespace term3lab3v1
                 }
 
                 current = current.Next;
-
             }
-
-
         }
 
         public KeyValuePair GetItemWithKey(string key)
@@ -94,8 +88,6 @@ namespace term3lab3v1
                     return current.Pair;
                 }
             }
-            
-
             return null;
         }
 
