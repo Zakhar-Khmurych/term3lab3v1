@@ -40,13 +40,12 @@ namespace term3lab3v1
             }
             else
             {
-                LinkedListNode addValue = new LinkedListNode(pair);
-                LinkedListNode current = _first;
+                var addValue = new LinkedListNode(pair);
+                var current = _first;
                 while (current.Next != null)
                 {
                     current = current.Next;
                 }
-
                 current.Next = addValue;
             }
         }
