@@ -29,19 +29,19 @@ namespace term3lab3v1
     
     public class LinkedList
     {
-        private LinkedListNode _first;
+        private LinkedListNode pointedNode;
 
         public void Add(KeyValuePair pair)
         {
-            if (_first == null)
+            if (pointedNode == null)
             {
-                _first = new LinkedListNode(pair);
-                _first.Next = null;
+                pointedNode = new LinkedListNode(pair);
+                pointedNode.Next = null;
             }
             else
             {
                 var addValue = new LinkedListNode(pair);
-                var current = _first;
+                var current = pointedNode;
                 while (current.Next != null)
                 {
                     current = current.Next;
@@ -52,14 +52,14 @@ namespace term3lab3v1
 
         public void RemoveByKey(string key)
         {
-            if (_first == null) return;
-            if (_first.Pair.Key == key)
+            if (pointedNode == null) return;
+            if (pointedNode.Pair.Key == key)
             {
-                _first = _first.Next;
+                pointedNode = pointedNode.Next;
                 return;
             }
 
-            var current = _first;
+            var current = pointedNode;
             while (current.Next != null)
             {
                 if (current.Next.Pair.Key == key)
@@ -74,12 +74,12 @@ namespace term3lab3v1
 
         public KeyValuePair GetItemWithKey(string key)
         {
-            if (_first == null) return null;
-            if (_first.Pair.Key == key)
+            if (pointedNode == null) return null;
+            if (pointedNode.Pair.Key == key)
             {
-                return _first.Pair;
+                return pointedNode.Pair;
             }
-            var current = _first;
+            var current = pointedNode;
             while (current.Next != null)
             {
                 if (current.Next.Pair.Key == key)
@@ -92,12 +92,12 @@ namespace term3lab3v1
 
         public LinkedListNode GetFirst()
         {
-            return _first;
+            return pointedNode;
         }
 
         public void PrintAll()
         {
-            LinkedListNode current = _first;
+            LinkedListNode current = pointedNode;
             while (current != null)
             {
                 Console.Write("key: " + current.Pair.Key + ", value " + current.Pair.Value + "\n");
@@ -108,7 +108,7 @@ namespace term3lab3v1
 
         public bool IsEmpty()
         {
-            if (_first == null)
+            if (pointedNode == null)
             {
                 return true;
             }
