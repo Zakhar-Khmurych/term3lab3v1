@@ -1,6 +1,7 @@
 ﻿using System.Linq;
+using term3lab3v1;
 
-namespace term3lab3v1;
+//namespace term3lab3v1;
 
 public class Dictionary
 {
@@ -66,7 +67,7 @@ public class Dictionary
         }
         return result;
     }
-
+// додавання елементу на конкретну позицію
     private void ExpandArray()
     {
         _loaded = 0;

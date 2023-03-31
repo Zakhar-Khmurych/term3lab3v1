@@ -50,6 +50,25 @@ namespace term3lab3v1
             }
         }
 
+        public void AddExactlyAfterKey(string pair_key, string pair_vaalue, string position_key)
+        {
+            var current_node = pointedNode;
+            while (pointedNode.Pair.Key != position_key)
+            {
+                if (pointedNode.Pair.Key == null)
+                {
+                    Console.WriteLine("oops! no key found");
+                }
+                current_node = current_node.Next;
+            }
+            
+            var position_next = current_node.Next;
+            var inserted_keyvalue_pair = new KeyValuePair(pair_key, pair_vaalue);
+            var inserted_node = new LinkedListNode(inserted_keyvalue_pair, position_next);
+            current_node.Next = inserted_node;
+
+        }
+
         public void RemoveByKey(string key)
         {
             if (pointedNode == null) return;
