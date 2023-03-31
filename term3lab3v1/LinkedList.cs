@@ -68,6 +68,27 @@ namespace term3lab3v1
             current_node.Next = inserted_node;
 
         }
+        public void AddExactlyAfterKeyPair(KeyValuePair new_pair, string position_key)
+        {
+            var current_node = pointedNode;
+            while (pointedNode.Pair.Key != position_key)
+            {
+                if (pointedNode.Pair.Key == null)
+                {
+                    Console.WriteLine("oops! no key found");
+                }
+                current_node = current_node.Next;
+            }
+            
+            var position_next = current_node.Next;
+            var inserted_node = new LinkedListNode(new_pair);
+            if (position_next != null)
+            { 
+                inserted_node.Next = position_next;
+            }
+            current_node.Next = inserted_node;
+
+        }
 
         public void RemoveByKey(string key)
         {
@@ -119,7 +140,7 @@ namespace term3lab3v1
             LinkedListNode current = pointedNode;
             while (current != null)
             {
-                Console.Write("key: " + current.Pair.Key + ", value " + current.Pair.Value + "\n");
+                Console.Write("key: " + current.Pair.Key + ", value: " + current.Pair.Value + "\n");
                 current = current.Next;
             }
   
